@@ -12,3 +12,4 @@ document.querySelectorAll('nav a').forEach(link => {
     document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
   });
 });
+
